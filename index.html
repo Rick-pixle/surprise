@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy 17th Anniversary!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="card">
+        <img src="polaroid-frame.png" alt="Polaroid Frame">
+        <img src="parents-picture.png" alt="Parents' Picture">
+        <h1 style="font-family: 'Adlery Pro', cursive;">Happy 17th Anniversary!</h1>
+    </div>
+    <div class="inner-card">
+        <div class="left-page">
+            <img src="another-picture.jpg" alt="Another Picture">
+        </div>
+        <div class="right-page">
+            <p style="font-family: 'adlery-pro.blockletter.ttf', cursive;">Dear Mom and Dad,</p>
+            <p style="font-family: 'adlery-pro.blockletter.ttf', cursive;">selamat ulang tahun anniversary yang ke 17 mamah papah, semoga di ulang tahun pernikahan yang ke 17 tahun ini mamah papah makin solid, keren, dan bisa menjadi orangtua yang ebat unuk aa dan eneng, amiin</p>
+        </div>
+    </div>
+
+    <script>
+        const card = document.querySelector('.card');
+        card.addEventListener('click', () => {
+            document.querySelector('.inner-card').style.display = 'block';
+        });
+    </script>
+</body>
+</html>
